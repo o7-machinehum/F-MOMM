@@ -1,5 +1,5 @@
 # F-MOMM
-Flat Micro Outline Memory Module. A RAM memory module for SBC's. See blog post [here](https://github.com/Machine-Hum/F-MOMM).
+Flat Micro Outline Memory Module. A RAM memory module for SBC's. See blog post [here](https://machinehum.medium.com/upcycling-laptop-memory-for-single-board-computers-15ed4cf8a675).
 ![Raspberrypi + F-MOMM](pics/pi.png)
 
 ## Helping out

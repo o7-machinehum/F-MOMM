@@ -48,7 +48,13 @@
           "min_clearance": 0.127
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -100,16 +106,16 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09,
         "min_copper_edge_clearance": 0.024999999999999998,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.39999999999999997,
+        "min_hole_clearance": 0.19999999999999998,
+        "min_hole_to_hole": 0.5,
+        "min_microvia_diameter": 0.45999999999999996,
         "min_microvia_drill": 0.19999999999999998,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_via_annular_width": 0.13,
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
@@ -471,12 +477,24 @@
   },
   "sheets": [
     [
-      "c2266995-c81f-4fcc-a9f1-c8fe94f23d05",
+      "d2de4093-1fc2-4bc1-94b6-4d0fe3426c6f",
       ""
     ],
     [
-      "00000000-0000-0000-0000-000060536da4",
-      "ram_b1"
+      "58adac39-ac0f-4d95-bc4c-030bb82109ac",
+      "ddr3_a"
+    ],
+    [
+      "2dda691a-00b0-4cb8-afcb-0df1e895cda3",
+      "ddr3_b"
+    ],
+    [
+      "0c076338-7aec-4eb2-815e-362204769ee6",
+      "ddr3_c"
+    ],
+    [
+      "06958bd5-9321-4108-86b3-172428d55da0",
+      "ddr3_d"
     ]
   ],
   "text_variables": {}
